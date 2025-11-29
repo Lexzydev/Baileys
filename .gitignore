@@ -1,0 +1,37 @@
+# 🔥 LEXZYMARKET - SIMPLE GITIGNORE
+
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+
+# Sessions & Auth
+auth_info_baileys/
+sessions/
+*.json
+*.creds
+
+# Logs
+*.log
+logs/
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temporary
+tmp/
+temp/
+*.tmp
