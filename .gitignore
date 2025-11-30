@@ -1,37 +1,12 @@
-# 🔥 LEXZYMARKET - SIMPLE GITIGNORE
-
-# Dependencies
 node_modules/
-npm-debug.log*
-
-# Build output
 dist/
-*.tsbuildinfo
-
-# Environment
+*.log
 .env
-.env.local
-
-# Sessions & Auth
+.DS_Store
 auth_info_baileys/
 sessions/
 *.json
-*.creds
-
-# Logs
-*.log
-logs/
-
-# System
-.DS_Store
-Thumbs.db
-
-# IDE
 .vscode/
 .idea/
-*.swp
-
-# Temporary
-tmp/
-temp/
-*.tmp
+src/          # ✅ HAPUS SRC FOLDER DARI PRODUCTION
+tsconfig.json # ✅ HAPUS TS CONFIG
